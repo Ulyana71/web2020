@@ -1,0 +1,21 @@
+.header-logo{
+    margin-left: 185px;
+    margin-top: 55px;
+}
+li{
+    list-style-type: none;
+    color: grey;
+}
+.menu flex-container{
+    display: flex;
+
+}
+.head{
+    background: crimson;
+    color: aliceblue;
+}
+hr{
+
+    background: crimson;
+}
+
