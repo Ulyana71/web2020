@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    /*font-family: Russo One;*/
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.header-container{
+    padding-top: 45px;
+    
+}
+.header-nav{
+    
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+    top: 45px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.wrapper{
+
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #FF4545;
+    margin: 5px 0;
+}
+
+li{
+    list-style-type: none;
+    color: grey;
+}
+
+.menu-list{
+    display: flex;  
+    margin-right: 40px;
+}
+
+.menu-item{
+    margin-left: 25px;
+    
+}
+
+.menu-item a{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40%;
+    color: rgba(48, 48, 48, 0.5);
+}
+
+.header-btn{
+    margin-top: 15px;
+}
+
+
+.header-btn-link{
+    background:#FF4545;
+    color: #FFFFFF;
+    font-family: Russo One;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 50%;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 20px;
+   }
+
+.navigation-menu{
+    margin: 15px;
+}
+   
+
+.navigation-link{
+    color: #FF4545;
+    font-size: 20px;
+    font-family: Russo One;
+    border: 2px solid #FF4545;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 20px;
+    width: 101px;
+    height: 50px;
+}
+
+.navigation-link:hover {
+    background-color:#FF4545;
+    color: white;
+}
+
+.navigation-phone{
+    margin-right: 50px;
+}
+
+
+.navigation-phone span{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(48, 48, 48, 0.5);
+
+}
+
+.navigation-phone img{
+    width: 24px;
+    height: 24px;
+}
+
+
+span{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+     color: #303030;
+}
+
+.slider{
+    max-width: 1170px;
+    margin: 0 auto 80px auto;
+    position: relative;
+}
+
+.slider img{
+    width: 100%;
+    height: auto;
+}
+.slider-text{
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    font-family: Russo One;
+    font-size: 48px;
+    color: #FFFFFF;
+    width: 50%;
+    
+}
+
+.slider-btn{
+    position: absolute;
+    bottom: 110px;
+    left: 60px;
+}
+
+.slider-link{
+    background:#FF4545;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 15px 35px;
+    font-family: Russo One;
+    line-height: 50%;
+}
+
+.security{
+    border: 10px solid rgba(255, 69, 69, 0.5);
+    text-align: center;
+}
+.security-content{
+    background: rgba(255, 69, 69, 0.5);
+    position: relative;
+    border: 10px solid white;
+}
+
+.security-bg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 240px;   
+     
+}
+.security-text{
+    padding: 50px 50px;
+    color: #303030;
+    font-size: 18px;
+    font-family: Open Sans;
+    text-align: center;
+}
+.security-text h3{
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.security-text ul{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.security-text ul li{
+    color: #303030;
+    padding-left: 75px;
+    font-size: 14px;
+    }
+
+.catalog-info{
+    padding-left: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.catalog-title h2{
+    font-size: 48px;
+    letter-spacing: 2px;
+    }
+
+.catalog-text{
+font-size: 18px;
+color: rgba(48, 48, 48, 0.8);
+font-family: Open Sans;
+
+}
+.catalog-item{
+position: relative;
+background-size: contain;
+padding: 15px 20px;
+margin-bottom: 20px;
+}
+
+.catalog-item:last-child{
+margin-bottom: 0;
+}
+
+
+
+.catalog-item h3{
+color: white;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40%;
+padding-left: 30px;
+}
+
+.catalog-btn{
+position: relative;
+display: inline-block;
+background-color: rgba(255, 255, 255, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+width: 200px;
+height: 70px;
+margin: 13px;
+text-align: center;
+}
+
+
+.catalog-link{
+font-size: 15px;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;  
+transform: translate(-50%,-50%);  
+white-space: nowrap;
+color: #303030;
+}
+
+
+.offer-title{
+margin: 50px 0 50px 50px;
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+.offer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.offer-card{
+border: 2px solid #FF4545;
+box-sizing: border-box;
+box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+width: 220px;
+height: 330px;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: space-between;
+}
+
+.offer-card-title{
+
+padding-top: 15px;
+}
+
+
+.offer-card-img img{
+    width: 80%;
+}
+
+
+.offer-card-img img:last-child{
+    width: 65%;
+}
+
+.offer-card-link{
+    background-color: #FF4545;
+    padding: 15px;
+}
+
+.offer-card-link a{
+    color: white;
+    
+}
+
+.offer-card-price{
+    letter-spacing: 1px;
+}
+
+.benefit{
+    margin: 50px 0;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;margin: 50px 185px;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    background: url(img/shild2.png);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.benefit-info-title{
+    margin-bottom: 40px;
+
+}
+
+
+.benefit-info-title h2{
+    font-size: 44px;
+}
+
+
+.benefit-info-text{
+    font-size: 14px;
+    color: rgba(48, 48, 48, 0.8);
+}
+.benefit-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 0;
+}
+
+
+.news-info-title h2{
+    font-size: 44px;
+
+}
+.news-list{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.news-item{
+    padding: 15px;
+}
+
+.news-item-title{
+    font-size: 24px;
+    text-align: left;
+}
+
+.contacts{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title{
+    margin-bottom: 30px;
+}
+
+.contact-title h2{
+    font-family: Russo One;
+    font-size: 48px;
+}
+.contacts-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contacts-info{
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacts-time{
+ display: flex;
+}
+
+.block{
+    background:#C4C4C4;
+    display: flex;
+    padding: 45px;
+    justify-content: space-around;
+    
+}
+
+.blok-link{
+    display: flex;
+    padding: 10px;
+}
